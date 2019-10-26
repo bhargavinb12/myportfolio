@@ -57,7 +57,10 @@ export default function ButtonAppBar(props) {
               Bhargavi Narayan Bhat
             </Typography>
             <Button color="secondary">
-              <Link to="/" style={{ textDecoration: "none", color: "#fff" }}>
+              <Link
+                to="/myportfolio/"
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
                 {" "}
                 <Typography color="initial" variant="subtitle1">
                   Home
