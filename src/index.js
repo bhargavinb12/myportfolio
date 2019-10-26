@@ -22,7 +22,7 @@ const routing = (
     {/* <HashRouter> */}
     <div>
       <ButtonAppBar />
-      <Route exact path="/" component={App} />
+      <Route exact path="/myportfolio/" component={App} />
       <Route path="/about" component={About} />
 
       <Route path="/resume" component={Resume} />
