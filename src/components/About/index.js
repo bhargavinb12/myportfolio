@@ -51,7 +51,12 @@ export default function About() {
           <Grid container spacing={2}>
             <Grid item>
               <ButtonBase className={classes.image}>
-                <img className={classes.img} alt="complex" src={Image} />
+                <img
+                  className={classes.img}
+                  alt="complex"
+                  //src={Image}
+                  src={process.env.PUBLIC_URL + "/images/bharg-uncc.jpg"}
+                />
               </ButtonBase>
               <div>
                 {/* <Fab
