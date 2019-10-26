@@ -18,17 +18,17 @@ import ButtonAppBar from "./components/ButtonAppBar";
 // import Grid from "./components/About";
 
 const routing = (
-   <Router>
-//   <HashRouter>
+  <Router>
+    {/* <HashRouter> */}
     <div>
       <ButtonAppBar />
-      <Route exact path="/myportfolio/" component={App} />
+      <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
 
       <Route path="/resume" component={Resume} />
       <Route path="/contact" component={Contact} />
     </div>
-  {/* </HashRouter> */}
-  </Router> 
+    {/* </HashRouter> */}
+  </Router>
 );
 ReactDOM.render(routing, document.getElementById("root"));
