@@ -6,7 +6,7 @@ import { Typography, Fab } from "@material-ui/core";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
-import profimg from "../../../public/images/bharg-uncc";
+//import profimg from "../../../public/images/bharg-uncc";
 
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
@@ -55,7 +55,7 @@ export default function About() {
                 <img
                   className={classes.img}
                   alt="complex"
-                  src={profimg}
+                  src={Image}
                   // src={process.env.PUBLIC_URL + "/images/bharg-uncc.jpg"}
                 />
               </ButtonBase>
