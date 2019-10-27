@@ -6,6 +6,7 @@ import { Typography, Fab } from "@material-ui/core";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
+import profimg from "../../../public/images/bharg-uncc";
 
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
@@ -36,7 +37,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function About() {
   const classes = useStyles();
-  const Image = "/images/bharg-uncc.jpg";
+  const Image = "../images/bharg-uncc.jpg";
   return (
     <div
       className="container"
@@ -54,8 +55,8 @@ export default function About() {
                 <img
                   className={classes.img}
                   alt="complex"
-                  //src={Image}
-                  src={process.env.PUBLIC_URL + "/images/bharg-uncc.jpg"}
+                  src={profimg}
+                  // src={process.env.PUBLIC_URL + "/images/bharg-uncc.jpg"}
                 />
               </ButtonBase>
               <div>
