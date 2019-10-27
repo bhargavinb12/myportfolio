@@ -7,7 +7,7 @@ import ButtonBase from "@material-ui/core/ButtonBase";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 //import profimg from "../../../public/images/bharg-uncc";
-import Profile from "../About/bharg-uncc.png";
+import Profile from "../About/bharg-uncc.jpg";
 
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
