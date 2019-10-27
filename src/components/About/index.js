@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function About() {
   const classes = useStyles();
-  const Image = "../images/bharg-uncc.jpg";
+  const Image = "../images/bhlue.jpg";
   return (
     <div
       className="container"
@@ -56,7 +56,7 @@ export default function About() {
                 <img
                   className={classes.img}
                   alt="complex"
-                  src={Profile}
+                  src={Image}
                   // src={process.env.PUBLIC_URL + "/images/bharg-uncc.jpg"}
                 />
               </ButtonBase>
