@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function About() {
   const classes = useStyles();
-  const Image = "../images/bhlue.jpg";
+  const Image = "../images/blue.jpg";
   return (
     <div
       className="container"
